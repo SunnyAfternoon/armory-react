@@ -10,7 +10,7 @@
   },
   "login": {
     "name": "Se connecter",
-    "joinCta": "Vous n'avez pas de compte ? Rejoignez-nous!",
+    "joinCta": "Vous n'avez pas de compte ? Abonnez-nous!",
     "forgotMyPasswordCta": "Mot de passe oublié",
     "buttons": {
       "login": "Se connecter"
@@ -20,12 +20,12 @@
     "name": "Mot de passe oublié",
     "nextCta": "Suivant",
     "changeCta": "Changer",
-    "checkEmail": "Vérifiez votre email pour le lien de réinitialisation !",
-    "success": "Votre mot de passe a été changé. Connectez-vous !"
+    "checkEmail": "Vérifiez votre addresse couriel pour le lien de réinitialisation!",
+    "success": "Votre mot de passe a été changé. Connectez-vous!"
   },
   "join": {
     "name": "Rejoindre",
-    "loginCta": "Vous avez déjà un compte? Connectez-vous !",
+    "loginCta": "Vous avez déjà un compte? Connectez-vous!",
     "buttons": {
       "join": "Inscription"
     }
@@ -36,25 +36,25 @@
   },
   "stats": {
     "name": "Statistiques",
-    "refreshNote": "Armory les statistiques sont actualisées toutes les trente minutes."
+    "refreshNote": "Les statistiques de Armory sont actualisées à toutes les trente minutes."
   },
   "search": {
-    "textbox": "Recherchez des utilisateurs, des personnages, et des guildes",
+    "textbox": "Recherchez des utilisateurs, des personnages, et des guildes.",
     "results": "Résultats de recherche pour",
     "minlength": "Votre recherche doit faire 3 caractères ou plus :-)",
-    "nonefound": "Rien n'a été trouvé ... Pensiez-vous trouver quelque chose ?",
-    "joincta": "Inscrivez-vous et ajoutez votre clé d'application(s) en premier!"
+    "nonefound": "Aucun résultats... Pensiez-vous trouver quelque chose?",
+    "joincta": "Abonnez-vous et ajoutez votre ou vos clé(s) d'application en premier!"
   },
   "users": {
     "name": "Utilisateurs",
-    "recentMatches": "Matches Récents",
+    "recentMatches": "Parties Récentes",
     "claimCta": "Claim",
     "noApiKey": "Api key not set.",
-    "makePrimary": "Make primary api key.",
-    "primaryToken": "This is your primary api key, your user information will be sourced from this.",
-    "invalidToken": "Could not retrieve data from GW2, the api key was probably deleted from the ArenaNet account page.",
+    "makePrimary": "Définir ma clé d'application principale.",
+    "primaryToken": "Ceci est votre clé d'application principale, toutes vos informations seront tirés de cette clé d'application.",
+    "invalidToken": "Impossible d'accéder à vos informations, veuillez vérifier que cette clé d'application n'a pas été suprimmer de votre compte ArenaNet.",
     "pvpStats": {
-      "name": "Stats PvP",
+      "name": "Statistiques de JcJ",
       "unranked": "Non Classé",
       "ranked": "Classé",
       "wins": "Victoires",
@@ -63,7 +63,7 @@
       "desertions": "Désertions",
       "forfeits": "Abandons",
       "finished": "Joués",
-      "ranking": "Rank",
+      "ranking": "Rang",
       "rating": "Rating"
     },
     "pvp": {
@@ -75,33 +75,33 @@
     "name": "Guildes",
     "guild": "Guilde",
     "noGuild": "Sans Guilde",
-    "claimed": "This guild has been claimed!",
-    "unclaimed": "This guild hasn't been claimed yet, if you're the guild leader add an api key with the guilds permission!",
-    "motd": "Message of the day"
+    "claimed": "Cette guilde a déjà été réclamée",
+    "unclaimed": "Cette guilde n'a pas encore été réclamée. Si vous êtes le guilde leader, ajouter votre clé d'application pour votre guilde avec les permissions",
+    "motd": "Message du jour"
   },
   "characters": {
     "name": "Personnages",
     "embedCta": "Ceci est un personnage choisi au hasard. Vous pouvez obtenir une intégration tout comme cela sur votre site! Cliquez sur l'icône d'intégration sur une page de caractères.",
     "shown": "Caractère Montré",
     "hidden": "Caractère caché",
-    "done": "Done",
-    "edit": "Edit",
-    "changePortrait": "Change your character portrait",
-    "noSkill": "No Skill Selected",
-    "embedTooltip": "Copy and paste this markup onto your website."
+    "done": "Terminer",
+    "edit": "Éditer",
+    "changePortrait": "Changer le portrait de votre personnage.",
+    "noSkill": "Aucun Skill de sélectionner",
+    "embedTooltip": "Copier et colle this markup sur votre site."
   },
   "settings": {
     "name": "Paramètres",
     "avatar": {
-      "cta": "Cliquez pour changer votre avatar",
+      "cta": "Cliquer pour changer votre avatar",
       "label": "Modifier votre avatar",
-      "finished": "Ca a l'air bien ;-)"
+      "finished": "Ça a l'air bien ;-)"
     },
     "apiKeys": {
-      "name": "Clés Api",
-      "noKeysCta": "Oh, vous avez aucune clé d'application .. Allez en générez une ..! Assurez-vous de sélectionner les permissions character,build et pvp :-).",
+      "name": "Clés d'applications",
+      "noKeysCta": "Oh, vous n'avez aucune clé d'application... Allez en générer une! Assurez-vous de sélectionner les permissions pour vos personnages,build et JcJ :-).",
       "inputs": {
-        "add": "Ajouter la clé"
+        "add": "Ajouter votre clé"
       },
       "buttons": {
         "add": "Ajouter"
@@ -112,7 +112,7 @@
       "inputs": {
         "current": "Mot de passe actuel",
         "password": "Mot de passe",
-        "confirm": "Confirmez le mot de passe"
+        "confirm": "Confirmez votre mot de passe"
       }
     },
     "buttons": {
@@ -127,7 +127,7 @@
     "skinLocked": "Apparence verrouillée",
     "requiredLevel": "Niveau Requis",
     "weaponStrength": "Puissance de l'arme",
-    "defense": "défense",
+    "defense": "Défense",
     "currentlyEquipped": "Actuellement équipée",
     "accountBound": "Lié au compte",
     "soulBound": "Lié à l'âme"
@@ -194,7 +194,7 @@
     "gw2ApiDown": "The official GW2 API is experiencing issues, your session may be affected!",
     "notFound": "Not Found",
     "notFoundLong": "Not Found (or the GW2 API is dead)!",
-    "resourceNotFound": "Sorry, there's nothing here. Here's a random character instead!",
+    "resourceNotFound": "Désolé, rien a voir ici. Voici un personnage aléatoire plutôt!",
     "newBags": "Bags now available on character pages! User achievements coming soon."
   }
 }
